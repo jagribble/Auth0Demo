@@ -42,6 +42,10 @@ function getUserType(sub: string){
             return 'Auth0';
         case 'apple':
             return 'Apple';
+        case 'github':
+            return 'GitHub';
+        default:
+            return 'Auth0';
     }
 }
 
